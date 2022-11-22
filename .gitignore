@@ -1,0 +1,12 @@
+.ssh/id_rsa
+.ssh/id_rsa.pub
+docker-compose.yml
+.mariadb/*
+.dynamodb/*
+tmp/*
+.vscode/settings.json
+
+src/tmp/*
+src/.air.log
+
+pkg/*

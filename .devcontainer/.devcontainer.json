@@ -1,0 +1,32 @@
+{
+    "name": "cacao-app-back",
+
+    "dockerComposeFile": [
+        "../docker-compose.yml"
+    ],
+
+    "service": "cacao-app-back",
+    "workspaceFolder": "/app",
+
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "go.toolsManagement.checkForUpdates": "off",
+		"go.gopath": "/go",
+		"go.gocodeAutoBuild": true,
+		"go.formatTool": "gofmt",
+		"go.useLanguageServer": true,
+		"editor.formatOnSave": false,
+		"[go]": {
+			"editor.formatOnSave": true
+		}
+    },
+
+    "extensions": [
+        "golang.go",
+        "donjayamanne.githistory",
+        "mhutchie.git-graph",
+        "bungcip.better-toml"
+    ],
+
+    "shutdownAction": "stopCompose"
+}
